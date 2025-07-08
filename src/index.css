@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  /* 필요시 커스텀 변수 선언 */
+}
+
+body {
+  @apply bg-gradient-to-br from-blue-50 to-white min-h-screen font-sans text-gray-800;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-md p-4;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg px-4 py-2 transition;
+}
+
+.input {
+  @apply border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200 transition w-full;
+}
+
+.fab {
+  @apply fixed bottom-20 right-6 bg-blue-600 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg text-3xl hover:bg-blue-700 transition z-50;
+}
